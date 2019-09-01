@@ -1,0 +1,426 @@
+/*****************************HTML Selectors****************************/
+
+a {
+  color: White;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  Margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: White;
+  font-size: 5.625em;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+h5 {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+h6 {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: .8rem;
+  font-weight: normal;
+  margin: 0;
+
+}
+
+hr {
+  border-style: none;
+  border-top: 2px solid white;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+table {
+  display: inline-block;
+}
+
+th {
+  display: inline-block;
+
+}
+
+td {
+  display: inline-block;
+}
+
+/*****************************Specific Selectors****************************/
+
+/*****Anchor Selectors*****/
+
+.footer_link {
+  padding: 25px;
+  color: #f3f9fb;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  }
+
+/*****Div Selectors*****/
+.copyright {
+  padding-bottom: 20px;
+  color: white;
+  font-size: .8rem;
+  text-align: center;
+}
+
+.Education {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.ed1 {
+  position: relative;
+  display: inline-block;
+  padding-right: 10vw;
+  vertical-align: top;
+  width: 27%;
+
+}
+
+.ed2 {
+  position: relative;
+  display: inline-block;
+  Width: 55%;
+
+}
+
+.first_container {
+  background-color: #f3f9fb;
+  padding-top: 50px;
+  display: block;
+  height: 100vh;
+
+}
+
+.second_container{
+  background-color: #ecf4f3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: block;
+}
+.third_container{
+  background-color: #f3f9fb;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: block;
+  height: 100vh;
+}
+
+.fourth_container {
+    background-color: #ecf4f3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    height: 100vh;
+}
+
+.footer {
+  background-color: #87c0cd;
+  padding-top: 30px;
+}
+
+.footer_nav {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom:20px;
+  text-align: center;
+  vertical-align: text-top;
+  }
+
+.header {
+  width: 100;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(https://brianhamilton.org/wp-content/uploads/2019/08/Fall.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+
+.profile {
+  width: 60%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.Resume_body {
+  position: relative;
+  display: block;
+  align-items: left;
+  text-align: left;
+  width: 60%;
+  margin: 50px auto;
+}
+
+/*****Img Selectors*****/
+
+.headshot {
+  position: relative;
+  display: inline-block;
+  border-radius: 100%;
+  height: 20%;
+  width: 20%;
+  Margin: 3% 9%;
+  border: 4px;
+
+
+}
+
+.logo {
+  height: 56px;
+  width: 56px;
+  padding: 15px;
+}
+
+/*****HTML Class Serlctors *****/
+.About {
+  display: inline-block;
+}
+
+.About_h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 0 auto;
+  padding-bottom: 5px;
+}
+
+.about_me {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-style: none;
+  border-top: 1px solid #87c0cd;
+
+}
+
+.bio {
+  display: inline-block;
+  width:30%;
+  text-align: left;
+  vertical-align: top;
+  line-height: 2rem;
+}
+
+.body_h2 {
+  position: relative;
+  display: block;
+  color: #226597;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.body_h3 {
+  position: relative;
+  display: block;
+  color: #226597;
+  align-items: left;
+  text-align: left;
+
+}
+
+.edhr {
+  border-style: none;
+  border-top: 1px solid #113f67;
+}
+
+.h3ed {
+  font-family: 'Montserrat', sans-serif;
+  color: #226597;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.skills_left {
+
+  margin-left: 0;
+  width: 28%;
+  Position: absolute;
+  display: flex;
+  float: left;
+
+}
+
+.skills_right {
+
+  margin-left: 32%;
+  width: 28%;
+  Position: absolute;
+  display: flex;
+}
+
+.skills_left1 {
+  margin-top: 2.5%;
+  margin-left: 0;
+  width: 28%;
+  Position: absolute;
+  display: flex;
+  float: left;
+
+}
+
+.skills_right1 {
+
+  margin-top: 2.5%;
+  margin-left: 32%;
+  width: 28%;
+  Position: absolute;
+  display: flex;
+}
+
+.skills_left2 {
+  margin-top: 5%;
+  margin-left: 0;
+  width: 28%;
+  Position: absolute;
+  display: flex;
+  float: left;
+
+}
+
+.skills_right2 {
+
+  margin-top: 5%;
+  margin-left: 32%;
+  width: 28%;
+  Position: absolute;
+  display: flex;
+}
+
+.skills_left3 {
+  margin-top: 7.5%;
+  margin-left: 0;
+  width: 28%;
+  Position: absolute;
+  display: flex;
+  float: left;
+
+}
+
+.skills_right3 {
+
+  margin-top: 7.5%;
+  margin-left: 32%;
+  width: 28%;
+  Position: absolute;
+  display: flex;
+}
+
+
+.skills_1 {
+  padding: 0;
+  width: 50%;
+  text-align: left;
+}
+
+.skills_2 {
+  padding: 0;
+  width: 50%;
+  text-align: right;
+}
+
+
+.skill_name {
+  position: relative;
+  display: inline-block;
+
+}
+
+.rating {
+  position: relative;
+  display: inline-block;
+
+}
+
+.skills_left:hover {
+  background-color: #f3f9fb;
+  padding: 0 10px 0 10px;
+}
+
+.skills_left1:hover {
+  background-color: #f3f9fb;
+  padding: 0 10px 0 10px;
+}
+.skills_left2:hover {
+  background-color: #f3f9fb;
+  padding: 0 10px 0 10px;
+}
+.skills_left3:hover {
+  background-color: #f3f9fb;
+  padding: 0 10px 0 10px;
+}
+
+.skills_right:hover {
+  background-color: #f3f9fb;
+  padding: 0 10px 0 10px;
+}
+
+.skills_right1:hover {
+  background-color: #f3f9fb;
+  padding: 0 10px 0 10px;
+}
+
+.skills_right2:hover {
+  background-color: #f3f9fb;
+  padding: 0 10px 0 10px;
+}
+
+.skills_right3:hover {
+  background-color: #f3f9fb;
+  padding: 0 10px 0 10px;
+}
