@@ -1,5 +1,4 @@
 /*****************************HTML Selectors****************************/
-
 a {
   color: White;
   text-decoration: none;
@@ -57,7 +56,6 @@ h6 {
   font-size: .8rem;
   font-weight: normal;
   margin: 0;
-
 }
 
 hr {
@@ -70,7 +68,7 @@ p {
 }
 
 li {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 table {
@@ -79,7 +77,6 @@ table {
 
 th {
   display: inline-block;
-
 }
 
 td {
@@ -87,9 +84,7 @@ td {
 }
 
 /*****************************Specific Selectors****************************/
-
 /*****Anchor Selectors*****/
-
 .footer_link {
   padding: 25px;
   color: #f3f9fb;
@@ -97,7 +92,13 @@ td {
   font-size: 1.1rem;
   font-weight: bold;
   text-decoration: none;
-  }
+}
+
+.Social_Text {
+  display: inline-block;
+  position: relative;
+  padding-right: 50px;
+}
 
 /*****Div Selectors*****/
 .copyright {
@@ -118,14 +119,12 @@ td {
   padding-right: 10vw;
   vertical-align: top;
   width: 27%;
-
 }
 
 .ed2 {
   position: relative;
   display: inline-block;
   Width: 55%;
-
 }
 
 .first_container {
@@ -133,16 +132,16 @@ td {
   padding-top: 50px;
   display: block;
   height: 100vh;
-
 }
 
-.second_container{
+.second_container {
   background-color: #ecf4f3;
   padding-top: 50px;
   padding-bottom: 50px;
   display: block;
 }
-.third_container{
+
+.third_container {
   background-color: #f3f9fb;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -151,11 +150,11 @@ td {
 }
 
 .fourth_container {
-    background-color: #ecf4f3;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: block;
-    height: 100vh;
+  background-color: #ecf4f3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: block;
+  height: 100vh;
 }
 
 .footer {
@@ -164,12 +163,14 @@ td {
 }
 
 .footer_nav {
-  margin: 0;
-  padding-top: 20px;
-  padding-bottom:20px;
-  text-align: center;
-  vertical-align: text-top;
-  }
+  margin: 0 auto;
+  width: 60%;
+  padding-bottom: 20px;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 
 .header {
   width: 100;
@@ -183,7 +184,7 @@ td {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  }
+}
 
 .profile {
   width: 60%;
@@ -204,7 +205,6 @@ td {
 }
 
 /*****Img Selectors*****/
-
 .headshot {
   position: relative;
   display: inline-block;
@@ -213,8 +213,6 @@ td {
   width: 20%;
   Margin: 3% 9%;
   border: 4px;
-
-
 }
 
 .logo {
@@ -222,6 +220,24 @@ td {
   width: 56px;
   padding: 15px;
 }
+
+.Social_icon {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  padding: 20px 10px;
+}
+
+.Project_Images {
+  width: 40%;
+  height: 40%;
+  Padding: 20px 20px 20px 20px;
+  display: inline-block;
+}
+
+.Project_Images:hover {}
 
 /*****HTML Class Serlctors *****/
 .About {
@@ -244,12 +260,11 @@ td {
   text-align: center;
   border-style: none;
   border-top: 1px solid #87c0cd;
-
 }
 
 .bio {
   display: inline-block;
-  width:30%;
+  width: 30%;
   text-align: left;
   vertical-align: top;
   line-height: 2rem;
@@ -270,7 +285,6 @@ td {
   color: #226597;
   align-items: left;
   text-align: left;
-
 }
 
 .edhr {
@@ -287,17 +301,14 @@ td {
 }
 
 .skills_left {
-
   margin-left: 0;
   width: 28%;
   Position: absolute;
   display: flex;
   float: left;
-
 }
 
 .skills_right {
-
   margin-left: 32%;
   width: 28%;
   Position: absolute;
@@ -311,11 +322,9 @@ td {
   Position: absolute;
   display: flex;
   float: left;
-
 }
 
 .skills_right1 {
-
   margin-top: 2.5%;
   margin-left: 32%;
   width: 28%;
@@ -330,11 +339,9 @@ td {
   Position: absolute;
   display: flex;
   float: left;
-
 }
 
 .skills_right2 {
-
   margin-top: 5%;
   margin-left: 32%;
   width: 28%;
@@ -349,18 +356,15 @@ td {
   Position: absolute;
   display: flex;
   float: left;
-
 }
 
 .skills_right3 {
-
   margin-top: 7.5%;
   margin-left: 32%;
   width: 28%;
   Position: absolute;
   display: flex;
 }
-
 
 .skills_1 {
   padding: 0;
@@ -374,17 +378,14 @@ td {
   text-align: right;
 }
 
-
 .skill_name {
   position: relative;
   display: inline-block;
-
 }
 
 .rating {
   position: relative;
   display: inline-block;
-
 }
 
 .skills_left:hover {
@@ -396,10 +397,12 @@ td {
   background-color: #f3f9fb;
   padding: 0 10px 0 10px;
 }
+
 .skills_left2:hover {
   background-color: #f3f9fb;
   padding: 0 10px 0 10px;
 }
+
 .skills_left3:hover {
   background-color: #f3f9fb;
   padding: 0 10px 0 10px;
@@ -423,4 +426,140 @@ td {
 .skills_right3:hover {
   background-color: #f3f9fb;
   padding: 0 10px 0 10px;
+}
+
+/***************Project Effects*************/
+.grid {
+  position: relative;
+  display: inline;
+  margin: 0 auto;
+  padding: 1em 0 4em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+
+/* Common style */
+.grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 320px;
+  max-width: 480px;
+  max-height: 360px;
+  width: 48%;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption>a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption>a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.grid figure h2 span {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.grid figure h2,
+.grid figure p {
+  margin: 0;
+}
+
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+figure.effect-milo {
+  background: #2e5d5a;
+}
+
+figure.effect-milo img {
+  max-width: none;
+  width: -webkit-calc(100% + 60px);
+  width: calc(100% + 60px);
+  opacity: 1;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-30px, 0, 0) scale(1.12);
+  transform: translate3d(-30px, 0, 0) scale(1.12);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+figure.effect-milo:hover img {
+  opacity: 0.5;
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
+figure.effect-milo h2 {
+  position: absolute;
+  right: 55px;
+  bottom: 60px;
+  padding: 1em 1.2em;
+}
+
+figure.effect-milo p {
+  padding: 0 10px 0 0;
+  width: 50%;
+  border-right: 1px solid #fff;
+  text-align: right;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-40px, 0, 0);
+  transform: translate3d(-40px, 0, 0);
+}
+
+figure.effect-milo:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
