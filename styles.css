@@ -1,4 +1,45 @@
-/*****************************HTML Selectors****************************/
+/* HTML Selectors */
+
+body {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 5.625em;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  }
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+}
+
+h6 {
+  font-family: 'Raleway', sans-serif;
+  font-size: .8rem;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
 a {
   color: White;
   text-decoration: none;
@@ -8,212 +49,240 @@ a:hover {
   text-decoration: underline;
 }
 
-body {
-  Margin: 0;
-  font-family: 'Roboto Slab', serif;
-}
-
-h1 {
-  font-family: 'Roboto', sans-serif;
-  color: White;
-  font-size: 5.625em;
-  margin: 50px auto 0 auto;
-}
-
-h2 {
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  font-size: 2.5rem;
-  font-weight: normal;
-}
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-h4 {
-  font-family: 'Raleway', sans-serif;
-  color: black;
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin: 0;
-}
-
-h5 {
-  font-family: 'Raleway', sans-serif;
-  color: black;
-  font-size: 1rem;
-  font-weight: bold;
-  margin: 0;
-}
-
-h6 {
-  font-family: 'Raleway', sans-serif;
-  color: black;
-  font-size: .8rem;
-  font-weight: normal;
-  margin: 0;
-}
-
-hr {
-  border-style: none;
-  border-top: 2px solid white;
-}
-
-p {
-  font-family: 'Montserrat', sans-serif;
-}
 
 li {
   font-family: 'Montserrat', sans-serif;
 }
 
-table {
-  display: inline-block;
+
+i {
+  font-family: 'Montserrat', sans-serif;
 }
 
-th {
-  display: inline-block;
+
+/* Universal Selectors */
+
+.section-width {
+  width: 60%;
+  margin: auto;
 }
 
-td {
-  display: inline-block;
+.section-header-h2 {
+  color: #226597;
+  padding-bottom: 2%;
 }
 
-/*****************************Specific Selectors****************************/
-/*****Anchor Selectors*****/
-.footer_link {
-  padding: 25px;
-  color: #f3f9fb;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.1rem;
+.section-header-p {
+  padding-bottom: 2%;
+}
+
+.section-header-border {
+  border-bottom: 1px solid #87c0cd;
+}
+
+.col{
+  padding-left: 0px;
+  padding-right: 15px;
+}
+
+
+/* Header */
+
+#header-image {
+  color: #fff;
+  height: 100vh;
+  background-image: url(https://brianhamilton.org/wp-content/uploads/2019/08/Fall.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.interactive-resume {
+  height: 100vh;
+}
+
+.interactive-resume-padding {
+  padding-top: 30vh;
+}
+
+.interactive-resume-line-break {
+  border-bottom: .7vh solid #fff;
+}
+
+.interactive-resume-h3 {
+  padding-top: 1.5rem;
+}
+
+/* About Me */
+
+#about-me {
+  background-color: #f3f9fb;
+  padding-top: 5%;
+}
+
+.about-me-h3 {
+  color: #226597;
+  text-align: left;
+  padding: 2% 0;
+}
+
+.about-me-p {
+  text-align: left;
+}
+
+.headshot {
+  border-radius: 100%;
+  width: 90%;
+  text-align: center;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ecf4f3;
+}
+
+/* Experience */
+
+#experience {
+  background-color: #ecf4f3;
+  padding-top: 5%;
+}
+
+.experience-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    color: #226597;
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 20px 0;
+  }
+
+.experience-bottom-border {
+  padding-bottom: 3%;
+}
+
+.organization-title {
   font-weight: bold;
-  text-decoration: none;
+  text-align: left;
+  font-size: 1rem;
 }
 
-.Social_Text {
-  display: inline-block;
+.organization-date {
+  font-weight: lighter;
+  text-align: left;
+  font-size: .8rem;
+}
+
+.organization-city {
+  font-weight: lighter;
+  text-align: left;
+  font-size: .8rem;
+  font-style: italic;
+}
+
+.position-title {
+  font-style: italic;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.position-details {
+  text-align: left;
+  font-size: .9rem;
+}
+
+
+/* Projects */
+
+#projects {
+    background-color: #f3f9fb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.single-content {
+  max-width: 1440px;
+}
+
+/* Skills */
+
+#skills {
+  background-color: #ecf4f3;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.skills-hover {
   position: relative;
-  padding-right: 50px;
+
+  display: inline-block;
+}
+
+.skills-hover:hover {
+  background-color: #fff;
+  transform: rotateX(300%);
+}
+
+.left {
+  position: absolute;
+  text-align: left;
+}
+
+.right {
+  position: relative;
+  text-align: right;
+}
+
+.right-no-padding {
+  position: relative;
+
+  text-align: right;
+  padding-right: 0;
+}
+
+.star-green {
+  color: #87c0cd;
+}
+
+.star-green:hover {
+  transform: rotate(.5turn);
+}
+
+.star-grey {
+  color: #808080;
+}
+
+
+/* Footer */
+
+#footer {
+  color: #fff;
+  background-color: #87c0cd;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.social-icons {
+  height: 20px;
+  width: 20px;
+  margin: 3% 2%;
+}
+
+.social-icons:hover {
+  color: #226597;
+  transform: rotate(.5turn);
+}
+
+.social-icon-padding {
+  padding-bottom: 2%;
 }
 
 /*****Div Selectors*****/
 .copyright {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   color: white;
   font-size: .8rem;
-  text-align: center;
 }
 
-.Education {
-  width: 60%;
-  margin: 0 auto;
-}
-
-.ed1 {
-  position: relative;
-  display: inline-block;
-  padding-right: 10vw;
-  vertical-align: top;
-  width: 27%;
-}
-
-.ed2 {
-  position: relative;
-  display: inline-block;
-  Width: 55%;
-}
-
-.first_container {
-  background-color: #f3f9fb;
-  padding-top: 50px;
-  display: block;
-  height: 100vh;
-}
-
-.second_container {
-  background-color: #ecf4f3;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  display: block;
-}
-
-.third_container {
-  background-color: #f3f9fb;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  display: block;
-  height: 100vh;
-}
-
-.fourth_container {
-  background-color: #ecf4f3;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  display: block;
-  height: 100vh;
-}
-
-.footer {
-  background-color: #87c0cd;
-  padding-top: 30px;
-}
-
-.footer_nav {
-  margin: 0 auto;
-  width: 60%;
-  padding-bottom: 20px;
-  vertical-align: middle;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.header {
-  width: 100;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url(https://brianhamilton.org/wp-content/uploads/2019/08/Fall.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.profile {
-  width: 60%;
-  display: block;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: auto;
-}
-
-.Resume_body {
-  position: relative;
-  display: block;
-  align-items: left;
-  text-align: left;
-  width: 60%;
-  margin: 50px auto;
-}
 
 /*****Img Selectors*****/
-.headshot {
-  position: relative;
-  display: inline-block;
-  border-radius: 100%;
-  height: 20%;
-  width: 20%;
-  Margin: 3% 9%;
-  border: 4px;
-}
 
 .logo {
   height: 56px;
@@ -221,212 +290,6 @@ td {
   padding: 15px;
 }
 
-.Social_icon {
-  height: 40px;
-  width: 40px;
-  display: inline-block;
-  position: relative;
-  vertical-align: middle;
-  padding: 20px 10px;
-}
-
-.Project_Images {
-  width: 40%;
-  height: 40%;
-  Padding: 20px 20px 20px 20px;
-  display: inline-block;
-}
-
-.Project_Images:hover {}
-
-/*****HTML Class Serlctors *****/
-.About {
-  display: inline-block;
-}
-
-.About_h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-left: 0 auto;
-  padding-bottom: 5px;
-}
-
-.about_me {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-style: none;
-  border-top: 1px solid #87c0cd;
-}
-
-.bio {
-  display: inline-block;
-  width: 30%;
-  text-align: left;
-  vertical-align: top;
-  line-height: 2rem;
-}
-
-.body_h2 {
-  position: relative;
-  display: block;
-  color: #226597;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.body_h3 {
-  position: relative;
-  display: block;
-  color: #226597;
-  align-items: left;
-  text-align: left;
-}
-
-.edhr {
-  border-style: none;
-  border-top: 1px solid #113f67;
-}
-
-.h3ed {
-  font-family: 'Montserrat', sans-serif;
-  color: #226597;
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding-top: 20px;
-}
-
-.skills_left {
-  margin-left: 0;
-  width: 28%;
-  Position: absolute;
-  display: flex;
-  float: left;
-}
-
-.skills_right {
-  margin-left: 32%;
-  width: 28%;
-  Position: absolute;
-  display: flex;
-}
-
-.skills_left1 {
-  margin-top: 2.5%;
-  margin-left: 0;
-  width: 28%;
-  Position: absolute;
-  display: flex;
-  float: left;
-}
-
-.skills_right1 {
-  margin-top: 2.5%;
-  margin-left: 32%;
-  width: 28%;
-  Position: absolute;
-  display: flex;
-}
-
-.skills_left2 {
-  margin-top: 5%;
-  margin-left: 0;
-  width: 28%;
-  Position: absolute;
-  display: flex;
-  float: left;
-}
-
-.skills_right2 {
-  margin-top: 5%;
-  margin-left: 32%;
-  width: 28%;
-  Position: absolute;
-  display: flex;
-}
-
-.skills_left3 {
-  margin-top: 7.5%;
-  margin-left: 0;
-  width: 28%;
-  Position: absolute;
-  display: flex;
-  float: left;
-}
-
-.skills_right3 {
-  margin-top: 7.5%;
-  margin-left: 32%;
-  width: 28%;
-  Position: absolute;
-  display: flex;
-}
-
-.skills_1 {
-  padding: 0;
-  width: 50%;
-  text-align: left;
-}
-
-.skills_2 {
-  padding: 0;
-  width: 50%;
-  text-align: right;
-}
-
-.skill_name {
-  position: relative;
-  display: inline-block;
-}
-
-.rating {
-  position: relative;
-  display: inline-block;
-}
-
-.skills_left:hover {
-  background-color: #f3f9fb;
-  padding: 0 10px 0 10px;
-}
-
-.skills_left1:hover {
-  background-color: #f3f9fb;
-  padding: 0 10px 0 10px;
-}
-
-.skills_left2:hover {
-  background-color: #f3f9fb;
-  padding: 0 10px 0 10px;
-}
-
-.skills_left3:hover {
-  background-color: #f3f9fb;
-  padding: 0 10px 0 10px;
-}
-
-.skills_right:hover {
-  background-color: #f3f9fb;
-  padding: 0 10px 0 10px;
-}
-
-.skills_right1:hover {
-  background-color: #f3f9fb;
-  padding: 0 10px 0 10px;
-}
-
-.skills_right2:hover {
-  background-color: #f3f9fb;
-  padding: 0 10px 0 10px;
-}
-
-.skills_right3:hover {
-  background-color: #f3f9fb;
-  padding: 0 10px 0 10px;
-}
 
 /***************Project Effects*************/
 .grid {
@@ -444,11 +307,11 @@ td {
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 10px 1%;
+  margin: 10px 0 0;
   min-width: 320px;
   max-width: 480px;
   max-height: 360px;
-  width: 48%;
+  width: 10%;
   background: #3085a3;
   text-align: center;
   cursor: pointer;
@@ -541,14 +404,14 @@ figure.effect-milo:hover img {
 
 figure.effect-milo h2 {
   position: absolute;
-  right: 55px;
-  bottom: 60px;
-  padding: 1em 1.2em;
+  right: 15px;
+  bottom: 1px;
+  padding: .3em .3em;
+  text-align: right;
 }
 
 figure.effect-milo p {
   padding: 0 10px 0 0;
-  width: 50%;
   border-right: 1px solid #fff;
   text-align: right;
   opacity: 0;
